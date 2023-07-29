@@ -6,8 +6,9 @@
 .short-des{
     display: flex;
     justify-content: center;
-    margin: 40px;
+    margin: 50px;
     flex-wrap: wrap;
+    margin-left: 90px;
 
 }
 .div-1{
@@ -30,6 +31,7 @@
 .Photo-Gallery{
     display: grid;
     justify-content: center;
+   
 }
 
 .grid {
