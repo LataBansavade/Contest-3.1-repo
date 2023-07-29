@@ -5,10 +5,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 <body>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, modi.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, modi.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, modi.</p>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mx-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Complex UI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Section 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Section 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Section 3</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+  <!-- hero section -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src=https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQxfENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60 class="d-block w-100" alt="img-1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <button  class="btn btn-primary">Call to Action</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1676368906386-9dce9cafdb9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="img-2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <button  class="btn btn-primary">Call to Action</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/1357410492/photo/outer-space-fantasy.webp?b=1&s=170667a&w=0&k=20&c=Cs6L-fUOnXcr4TjWaF8O9YV-YSE88UgTBpm1q7TCTFE=" class="d-block w-100" alt="img-3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <button  class="btn btn-primary">Call to Action</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Short Discription -->
+<section class="short-des">
+
+ 
+ <div class="div-1">
+    <img id="std-img" src=https://images.unsplash.com/photo-1689431135576-5f7c97286346?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fGlVSXNuVnRqQjBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60alt="image1">
+    <p class="short">Short Description</p>
+ </div>
+
+ <div class="div-1">
+    <img id="std-img" src=https://images.unsplash.com/photo-1689491481722-f3c62d56d74f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE4fGlVSXNuVnRqQjBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60 alt="image1">
+    <p class="short">Short Description</p>
+ </div>
+
+ <div class="div-1">
+    <img id="std-img" src=https://images.unsplash.com/photo-1689770199208-27ad0337e0ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQzfGlVSXNuVnRqQjBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60alt="image1">
+    <p class="short">Short Description</p>
+ </div>
+
+</section>
+
+<!-- /////////////////////////////// -->
+
+
+ <!-- Photo-Gallery -->
+ <section class="Photo-Gallery">
+    <div class="grid">
+      <div class="item item1">
+        <img  src="https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNwYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="1">
+      </div>
+      <div class="item item2 dim">
+        <img src="https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="2">
+      </div>
+
+      <div class="item dim">
+        <img src="https://plus.unsplash.com/premium_photo-1677916317230-d9b78d675264?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNwYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="2">
+      </div>
+
+      <div class="item item2 dim">
+        <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwYWNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="2">
+      </div>
+
+      <div class="item dim">
+        <img src="https://media.istockphoto.com/id/1417824620/photo/pink-galaxy.webp?b=1&s=170667a&w=0&k=20&c=8hrBdksuC4G_nxePddaVq0RejKFmeSGkZqtRB82JLk0=" alt="2">
+      </div>
+
+      <div class="item item5 dim56">
+        <img src="https://media.istockphoto.com/id/1439973585/photo/3d-render-abstract-panoramic-background-seascape-with-cliffs-under-the-pink-blue-night.webp?b=1&s=170667a&w=0&k=20&c=-FG7VuzgV-bUWQjDScdOmMTDzBqlgOHAJnAYH0PItUM=" alt="5">
+      </div>
+
+      <div class="item item6 dim56">
+        <img src="https://media.istockphoto.com/id/182792016/photo/solar-system.jpg?s=612x612&w=0&k=20&c=zzdw1BE3GjWcHyxiIeDlMiGqCyBnvdaJDwZCIX4h18s=" alt="5">
+      </div>
+    <!--   <div class="item">Item 4</div> -->
+    </div>
+    <!-- ============================ -->
+    <div class="grid-2">
+      <div class="item item7 dim78">
+        <img src="https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="78">
+      </div>
+      <div class="item item8 dim78">
+        <img src="https://images.pexels.com/photos/76969/cold-front-warm-front-hurricane-felix-76969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="78">
+      </div>
+    <!--   <div class="item">Item 4</div> -->
+    </div>
+  </section>
+
+  <!-- ////////////////////////////////////////////////////////
+ -->
+
+ <!-- Card section -->
+
+ <section class="cards">
+
+    <div class="card" style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/626214298/photo/stars-shining-above-mt-everest-summit-himalaya-mountain-peaks-nepal.jpg?s=612x612&w=0&k=20&c=cE2fkcc5KXNYPQvBC4sZWphlBs-csn-YjzLxHpi2NvU=" class="card-img-top" alt="img-1">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Call to Action</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/685881268/photo/india-3d-render-planet-earth-clouds.jpg?s=612x612&w=0&k=20&c=AzlnJCmIKgxCTeA-JojlCxJVYk3zvEx7SY7x4rATl2M=" class="card-img-top" alt="img-1">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Call to Action</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/626214298/photo/stars-shining-above-mt-everest-summit-himalaya-mountain-peaks-nepal.jpg?s=612x612&w=0&k=20&c=cE2fkcc5KXNYPQvBC4sZWphlBs-csn-YjzLxHpi2NvU=" class="card-img-top" alt="img-1">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Call to Action</a>
+        </div>
+      </div>
+
+ </section>
+  <!-- //////////////////////////////////////////////// -->
+
+      <!-- Footer -->
+
+<footer class="foot">
+    <div class="footer-1">
+        <div class="useful">
+            <h5>Useful Links</h5>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        <div class="more">
+            <h5>More Link</h5>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+            <a href="#">Link 6</a>
+        </div>
+        <div class="contact">
+            <p>Email:latabansavade24@gmail.com</p>
+            <p>Phone:+91(444)246-363</p>
+        </div>
+    </div>
+
+    <div class="footer-2">
+        <p class="copy"><b> © 2023 Complex Ui. All Right Reserved.</b></p>
+        <button class="top"> Back To Top</button>
+    </div>
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
